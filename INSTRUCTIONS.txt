@@ -1,0 +1,14 @@
+1//-Download/install Cheat engine,
+2//-put the 'HarknessHax' folder into your arma 2 root directory.
+3//-start Arma 2 and minimise it.
+4//-open cheat engine,
+5//-Click on the flashing computer logo at the top left and select 'arma2oa.exe'
+6//-change value type from '4 bytes' to 'STRING',
+7//-Open  the file 'this in cheat engine.txt' (its inside the HarknessHax folder),
+8//-copy the first line into the search box on cheat engine and click 'first scan',
+9//-Double click the box and it will go to the bottom,
+10//-Double click on the box at the bottom UNDERNEATH WHEAR IT SAYS VALUE,
+11//-Copy the second line from 'thisincheatengine.txt into the box on cheat engine REPLACING what is already there.
+12//-close cheat engine and DO NOT SAVE and go back to your game,
+13//-Join a game WITHOUT BATTLE EYE and press RIGHT SHIFT, P,
+14//-Scroll the mouse wheel or press spacebar to access Harkness Hack... ENJOY and SHARE

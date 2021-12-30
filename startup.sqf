@@ -1,0 +1,1 @@
+execVM "DeceptionHax\setup\startup.sqf";

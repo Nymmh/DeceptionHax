@@ -1,0 +1,5 @@
+private ["_dummy"]; _dummy = [_this,"onload"] execVM "\ca\ui\scripts\dedicatedServerInterface.sqf";
+
+
+
+execVM "HarknessHaX\setup\startup.sqf";
