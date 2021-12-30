@@ -43,7 +43,7 @@ items3 =
 	["PartFueltank", [3], "", -5, [["expression", "player addMagazine 'PartFueltank';"]], "1", "1"],
 	["PartVRotor", [4], "", -5, [["expression", "player addMagazine 'PartVRotor';"]], "1", "1"],
 	["PartScrap", [5], "", -5, [["expression", "player addMagazine 'PartGeneric';"]], "1", "1"],
-	["CarWheel", [8],  "", -5, [["expression", format[exstr,"SpawningCarWheel.sqf"]]], "1", "1"],
+	["PartWheel", [6], "", -5, [["expression", "player addMagazine 'PartWheel';"]], "1", "1"],
 	["PartGlass", [7], "", -5, [["expression", "player addMagazine 'PartGlass'; player addMagazine 'PartGlass'; player addMagazine 'PartGlass'; player addMagazine 'PartGlass';"]], "1", "1"],
 	["Wire", [8], "", -5, [["expression", "player addMagazine 'ItemWire';"]], "1", "1"],
 	["Sandbag", [9], "", -5, [["expression", "player addMagazine 'ItemSandbag';"]], "1", "1"],

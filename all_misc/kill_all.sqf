@@ -12,4 +12,4 @@ if (_aim == player) then
 };", _list];
 [_screen] execVM "DeceptionHax\exec.sqf";
 
-hint "kill_all loaded..";
+hint "kill_all.sqf loaded..";

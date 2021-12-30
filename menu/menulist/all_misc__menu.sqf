@@ -22,13 +22,10 @@ thfile = thfile + ["  Delete ALL Dead/Destroyed/Shit (MORE FPS)",format[_execx, 
 thfile = thfile + ["  Delete ALL A.I. in Group Player",format[_execx, "all_misc\delete_AI.sqf"],"0","0","0","0",[]];
 thfile = thfile + ["  Repair ALL Vehicle",format[_execx, "all_misc\repair_all_veh_v2.sqf"],"0","0","0","0",[]];
 thfile = thfile + ["  Change Blood All",format[_execx, "all_misc\change_blood_all.sqf"],"0","0","0","0",[]];
-thfile = thfile + ["  Change Blood All To 20000",format[_execx, "all_misc\change_blood_all_20000.sqf"],"0","0","0","0",[]];
-thfile = thfile + ["  Turn all Players screen Black",format[_execx, "all_misc\change_blood_all_90000.sqf"],"0","0","0","0",[]];
 thfile = thfile + ["  Give Gear Dmr All",format[_execx, "all_misc\give_dmr_a.sqf"],"0","0","0","0",[]];
 
 thfile = thfile + ["------- Environmental -------","","0","1","0","0",[]];
 thfile = thfile + ["  antihax",format[_execx, "all_misc\antihax.sqf"],"0","0","0","0",[]];
-thfile = thfile + ["  9 AM",format[_execx, "all_misc\9AM.sqf"],"0","0","0","0",[]];
 thfile = thfile + ["  9 PM",format[_execx, "all_misc\9pm.sqf"],"0","0","0","0",[]];
 thfile = thfile + ["  Clear Weather",format[_execx, "all_misc\clear.sqf"],"0","0","0","0",[]];
 thfile = thfile + ["  Stormy Weather",format[_execx, "all_misc\stormy.sqf"],"0","0","0","0",[]];
@@ -44,7 +41,9 @@ thfile = thfile + ["  Break Legs All",format[_execx, "all_misc\breaklegs_all.sqf
 thfile = thfile + ["","","0","1","0","0",[]];
 thfile = thfile + ["  Screen Shake",format[_execx, "all_misc\screen_shake.sqf"],"0","0","0","0",[]];
 thfile = thfile + ["  Kill ALL",format[_execx, "all_misc\kill_all.sqf"],"0","0","0","0",[]];
+thfile = thfile + ["  Explode ALL",format[_execx, "all_misc\explode_all.sqf"],"0","0","0","0",[]];
 thfile = thfile + ["  Delete ALL Vehicle",format[_execx, "all_misc\Delete_all_Vehicle.sqf"],"0","0","0","0",[]];
+thfile = thfile + ["  Build Car Tower",format[_execx, "all_misc\car_tower.sqf"],"0","0","0","0",[]];
 thfile = thfile + ["  Vehiclemagnet",format[_execx, "all_misc\Vehiclemagnet.sqf"],"0","0","0","0",[]];
 
 
@@ -62,10 +61,8 @@ thfile = thfile + ["------- Very Kind of me -------","","0","1","0","0",[]];
 thfile = thfile + ["  Delete ALL Dead/Destroyed/Shit (MORE FPS)",format[_execx, "all_misc\clear_server.sqf"],"0","0","0","0",[]];
 thfile = thfile + ["  Delete ALL A.I. in Group Player",format[_execx, "all_misc\delete_AI.sqf"],"0","0","0","0",[]];
 thfile = thfile + ["  Repair ALL Vehicle",format[_execx, "all_misc\repair_all_veh_v2.sqf"],"0","0","0","0",[]];
-thfile = thfile + ["  Change Blood All",format[_execx, "all_misc\change_blood_all.sqf"],"0","0","0","0",[]];
-thfile = thfile + ["  Change Blood All To 20000",format[_execx, "all_misc\change_blood_all_20000.sqf"],"0","0","0","0",[]];
-thfile = thfile + ["  Change Blood All To 90000",format[_execx, "all_misc\change_blood_all_90000.sqf"],"0","0","0","0",[]];
-thfile = thfile + ["  Give Gear Dmr All",format[_execx, "all_misc\give_dmr_a.sqf"],"0","0","0","0",[]];
+thfile = thfile + ["  infiSTAR Weaponsbox Remove ALL",format[_execx, "all_misc\infiSTAR_weaponbox_r_a.sqf"],"0","0","0","0",[]];
+thfile = thfile + ["  infiSTAR Weaponbox ALL",format[_execx, "all_misc\infiSTAR_weaponbox_a.sqf"],"0","0","0","0",[]];
 
 
 thfile = thfile + ["------- Supply Drops -------","","0","1","0","0",[]];
@@ -79,6 +76,7 @@ thfile = thfile + ["  F35B for ALL",format[_execx, "all_misc\supplydrop_5.sqf"],
 
 
 thfile = thfile + ["------- Environmental -------","","0","1","0","0",[]];
+thfile = thfile + ["  9 AM",format[_execx, "all_misc\9am.sqf"],"0","0","0","0",[]];
 thfile = thfile + ["  9 PM",format[_execx, "all_misc\9pm.sqf"],"0","0","0","0",[]];
 thfile = thfile + ["  Clear Weather",format[_execx, "all_misc\clear.sqf"],"0","0","0","0",[]];
 thfile = thfile + ["  Stormy Weather",format[_execx, "all_misc\stormy.sqf"],"0","0","0","0",[]];
@@ -94,8 +92,9 @@ thfile = thfile + ["  Break Legs All",format[_execx, "all_misc\breaklegs_all.sqf
 thfile = thfile + ["","","0","1","0","0",[]];
 thfile = thfile + ["  Screen Shake",format[_execx, "all_misc\screen_shake.sqf"],"0","0","0","0",[]];
 thfile = thfile + ["  Kill ALL",format[_execx, "all_misc\kill_all.sqf"],"0","0","0","0",[]];
-thfile = thfile + ["  Build Car Tower",format[_execx, "all_misc\car_tower.sqf"],"0","0","0","0",[]];
+thfile = thfile + ["  Explode ALL",format[_execx, "all_misc\explode_all.sqf"],"0","0","0","0",[]];
 thfile = thfile + ["  Delete ALL Vehicle",format[_execx, "all_misc\Delete_all_Vehicle.sqf"],"0","0","0","0",[]];
+thfile = thfile + ["  Build Car Tower",format[_execx, "all_misc\car_tower.sqf"],"0","0","0","0",[]];
 thfile = thfile + ["  Vehiclemagnet",format[_execx, "all_misc\Vehiclemagnet.sqf"],"0","0","0","0",[]];
 
 

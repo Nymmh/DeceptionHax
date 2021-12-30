@@ -3,15 +3,15 @@ cutText ['','PLAIN',0];
 Titletext ['','PLAIN',0];
 endLoadingScreen;
 0 fadeSound 1;
-setViewDistance 1600;
+setViewDistance 1400;
 
 
 execVM "DeceptionHax\setup\bindings.sqf";
 
 
-cutText [format["DeceptionHax v5.0 Loaded\nWelcome %1\nSpacebar to Open Menu", name player], "PLAIN"];
+cutText [format["DeceptionHax v4.0 Loaded\nWelcome %1\nSpacebar to Open Menu", name player], "PLAIN"];
 hintsilent format ["DeceptionHax v4.0 Loaded"];
-["DeceptionHax by [Nymh", "Salt, salt and more salt"] spawn BIS_fnc_infotext;
+["DeceptionHax by [DBDH]Aleks", "Bitches Be Haten"] spawn BIS_fnc_infotext;
 
 
 

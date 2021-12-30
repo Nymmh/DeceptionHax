@@ -294,7 +294,7 @@ _aim = _x;
 		_aim setDamage 1.1;
 		{_x setDamage 1.1;} forEach crew _aim;
 	};
-} forEach (_pos nearEntities [["All"],100000]);
+} forEach (_pos nearEntities [["All"],1000]);
 
 
 
@@ -305,7 +305,7 @@ _aim = _x;
 		_aim setDamage 1.1;
 		{_x setDamage 1.1;} forEach crew _aim;
 	};
-} forEach (nearestObjects [_pos, ["All"], 500000000]);
+} forEach (nearestObjects [_pos, ["All"], 500]);
 
 
 

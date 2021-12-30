@@ -18,7 +18,7 @@ if (!(isNil "Dayz_GUI_R") or !(isNil "dayz_originalPlayer")) then
 	
 	sleep 3;
 
-	_toremote = format["setViewDistance 500;"];
+	_toremote = format["setViewDistance 800;"];
 	[_toremote] execVM "DeceptionHax\exec.sqf";
 	
 	sleep 1;

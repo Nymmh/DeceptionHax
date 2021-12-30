@@ -78,7 +78,7 @@ _exec = 'if (isServer) then
 			};
 
 
-			if (player distance nukepos < 20000000) then 
+			if (player distance nukepos < 2000) then 
 			{
 				"dynamicBlur" ppEffe''+''ctEnable true;
 				"dynamicBlur" ppEffe''+''ctAdjust [0.5];
@@ -162,7 +162,7 @@ _exec = 'if (isServer) then
 
 			sleep 4;
 
-			if (player distance nukepos < 4000000) then 
+			if (player distance nukepos < 4000) then 
 			{
 				"dynamicBlur" ppEff''+''ectAdjust [0];
 				"dynamicBlur" ppEffe''+''ctCommit 1;

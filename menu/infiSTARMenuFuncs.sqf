@@ -1176,7 +1176,7 @@ Metallica_infiSTAR_initMenu =
 		// Fixing the MainCaption
 		_ctrl = 3 call Metallica_infiSTAR_getControl;
 		_ctrl ctrlSetPosition title_pos;
-		_ctrl ctrlSetText "DeceptionHax　　　　　出背p地温はx　　　　　ВусузешщтРфч     DeceptionHax    出背p地温はx    ВусузешщтРфч    DeceptionHax    出背p地温はx    ВусузешщтРфч    DeceptionHax    出背p地温はx    ВусузешщтРфч    DeceptionHax    出背p地温はx	   ВусузешщтРфч     DeceptionHax     出背p地温はx";
+		_ctrl ctrlSetText "Aleks    DeceptionHax    Corbin    DeceptionHax    RiPZ    DeceptionHax    Mac    DeceptionHax    Aleks    DeceptionHax    Corbin    DeceptionHax	Ripz	DeceptionHax	Mac	  DeceptionHax";
 		_ctrl ctrlSetTextColor title_dialog;
 		_ctrl ctrlSetBackgroundColor [0, 0, 0, 5];
 		_ctrl ctrlSetFont font;
@@ -1212,7 +1212,7 @@ Metallica_infiSTAR_initMenu =
 		// Fixing the MainCaption
 		_ctrl = 3 call Metallica_infiSTAR_getControl;
 		_ctrl ctrlSetPosition title_pos;
-		_ctrl ctrlSetText "DeceptionHax　　　　　出背p地温はx　　　　　ВусузешщтРфч     DeceptionHax    出背p地温はx    ВусузешщтРфч    DeceptionHax    出背p地温はx    ВусузешщтРфч    DeceptionHax    出背p地温はx    ВусузешщтРфч    DeceptionHax    出背p地温はx	   ВусузешщтРфч     DeceptionHax     出背p地温はx";
+		_ctrl ctrlSetText "DeceptionHax    Aleks    DeceptionHax    Corbin    DeceptionHax    RiPZ    DeceptionHax    Mac    DeceptionHax    Aleks    DeceptionHax    Corbin    DeceptionHax	Ripz	DeceptionHax	Mac	  DeceptionHax";
 		_ctrl ctrlSetTextColor title_dialog;
 		_ctrl ctrlSetBackgroundColor [0, 0, 0, 5];
 		_ctrl ctrlSetFont font;

@@ -18,7 +18,5 @@ thfile = thfile + ["            == Show PLR Details ==",format[_execx, "menu\men
 thfile = thfile + ["============================================","","0","1","0","0",[]];
 
 thfile = thfile + ["             Teleport Select To Me",format[_execx, "target\tpother.sqf"],"0","0","0","1",[]];
-thfile = thfile + ["","","0","1","0","0",[]];
 thfile = thfile + ["             Teleport To Selected",format[_execx, "target\tp_to_other.sqf"],"0","0","0","1",[]];
-thfile = thfile + ["","","0","1","0","0",[]];
 thfile = thfile + ["             Spectate Selected",format[_execx, "target\targetspec.sqf"],"0","0","0","1",[]];

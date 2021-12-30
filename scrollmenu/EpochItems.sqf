@@ -9,9 +9,9 @@ SpecialAmmo =
 	["Sapphire", [4],  "", -5, [["expression", format[exstr,"WTFEpochSapphire.sqf"]]], "1", "1"],
 	["Amethyst", [5],  "", -5, [["expression", format[exstr,"WTFEpochAmethyst.sqf"]]], "1", "1"],
 	["Emerald", [6],  "", -5, [["expression", format[exstr,"WTFEpochEmerald.sqf"]]], "1", "1"],
-	["Citrine", [7],  "", -5, [["expression", format[exstr,"WTFEpochCitrine.sqf"]]], "1", "1"],
-	["Ruby", [8],  "", -5, [["expression", format[exstr,"WTFEpochRuby.sqf"]]], "1", "1"],
-	["MixOil", [9],  "", -5, [["expression", format[exstr,"WTFEpochMixOil.sqf"]]], "1", "1"],
+	["Citrine", [7],  "", -5, [["expression", format[exstr,"WTFEpochEmerald.sqf"]]], "1", "1"],
+	["Ruby", [8],  "", -5, [["expression", format[exstr,"WTFEpochEmerald.sqf"]]], "1", "1"],
+	["MixOil", [9],  "", -5, [["expression", format[exstr,"WTFEpochEmerald.sqf"]]], "1", "1"],
 	
 	["", [-1], "", -5, [["expression", ""]], "1", "0"]
 ];

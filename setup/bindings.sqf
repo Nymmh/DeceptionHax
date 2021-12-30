@@ -77,7 +77,7 @@ keybindings =
 		};
 		case 60:		//F2
 		{
-			execVM "\DeceptionHax\markers\groupicons.sqf";
+			execVM "\DeceptionHax\_for_keybinds\attach_near.sqf";
 		};
 		case 59:		//F1
 		{
@@ -107,7 +107,6 @@ keybindings =
 		{
 			execVM "\DeceptionHax\_for_keybinds\restore_near.sqf";
 		};
-		//GodMode Below
 		case 88:		//F12
 		{
 			execVM "\DeceptionHax\_for_keybinds\ToggleGodMod.sqf";

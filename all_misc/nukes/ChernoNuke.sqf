@@ -97,7 +97,7 @@ ash = {
 
 
 
-if (player distance nukepos < 20000000) then {
+if (player distance nukepos < 2000) then {
 
 
 	"dynamicBlur" ppEffe''+''ctEnable true;
@@ -188,7 +188,7 @@ deleteve''+''hicle _top3;
 
 sleep 4;
 
-if (player distance nukepos < 4000000) then {
+if (player distance nukepos < 4000) then {
 	"dynamicBlur" ppEff''+''ectAdjust [0];
 	"dynamicBlur" ppEffe''+''ctCommit 1;
 };

@@ -8,5 +8,5 @@ _screen = format["
 "];
 [_screen] execVM "DeceptionHax\exec.sqf";
 
-hint format ["*All Players Gear Deleted*"];
-cutText [format["*All Players Gear Deleted*"], "PLAIN DOWN"];
+hint format ["All Players Gear Deleted"];
+cutText [format["All Players Gear Deleted"], "PLAIN DOWN"];

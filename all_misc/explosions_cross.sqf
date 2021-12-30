@@ -112,7 +112,7 @@ _object = "HelicopterExplobig" createvehiclelocal [(_posbam1 select 0)+HOLY,(_po
 _object = "HelicopterExplobig" createvehiclelocal [(_posbam1 select 0)+HOLY,(_posbam1 select 1)+HOLY,(_posbam1 select 2)];
 
 
-hint "*EXPLOSIONS INC \n RUN!*";
+hint "EXPLOSIONS INC \n RUN!";
 cutText [format["EXPLOSIONS INC \n RUN!"],"PLAIN DOWN"];
 
 onMapSingleClick "";
@@ -121,9 +121,9 @@ openMap [false, false];
 };
 
 openMap [true, false];
-onMapSingleClick "[_pos select 0, _pos select 1, _pos select 2, _pos select 3, _pos select 4] call ARTY";
+onMapSingleClick "[_pos select 0, _pos select 1, _pos select 2] call ARTY";
 closedialog 0;
 
 /*
-"HelicopterExploSmall", "M_AT5_AT", "Sh_125_HE", "Sh_122_HE", "Sh_105_HE", "HelicopterExplobig", "HelicopterExplobig", "HelicopterExplobig", "HelicopterExplobig", "HelicopterExplobig", "HelicopterExplobig", "HelicopterExplobig", "HelicopterExplobig", "HelicopterExplobig", "HelicopterExplobig", "HelicopterExplobig", "HelicopterExplobig", "HelicopterExplobig", "HelicopterExplobig", "HelicopterExplobig", "HelicopterExplobig", "HelicopterExplobig", "HelicopterExplobig", "HelicopterExplobig", "HelicopterExplobig", "HelicopterExplobig", "HelicopterExplobig", "HelicopterExplobig", "HelicopterExplobig", "HelicopterExplobig", "HelicopterExplobig", "HelicopterExplobig", "HelicopterExplobig", "HelicopterExplobig", "HelicopterExplobig", "HelicopterExplobig", "HelicopterExplobig", "HelicopterExplobig", "HelicopterExplobig", "HelicopterExplobig", "HelicopterExplobig", "HelicopterExplobig", "HelicopterExplobig", "HelicopterExplobig", "HelicopterExplobig", "HelicopterExplobig", "HelicopterExplobig"
+"HelicopterExploSmall", "M_AT5_AT", "Sh_125_HE", "Sh_122_HE", "Sh_105_HE", "HelicopterExplobig" 
 */

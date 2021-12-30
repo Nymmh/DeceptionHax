@@ -22,7 +22,7 @@ _toRE = format["if (name player == '%1') then
 		_x setFuel 1;
 		_x setVectorUp [0,0,1];
 		sleep 0.5;
-	} forEach ((getPosATL player) nearEntities [[""Air"",""Car"",""Motorcycle"",""Tank"",""Ship""],5]);
+	} forEach ((getPosATL player) nearEntities [[""Air"",""Car"",""Motorcycle"",""Tank"",""Ship""],10]);
 };", _name];
 [_toRE] execVM "DeceptionHax\exec.sqf";
 

@@ -36,11 +36,11 @@ _qqqfghww = "if (isServer) then
 			(player getVariable['humanKills', 0]),
 			(player getVariable['banditKills', 0]),
 			(player getVariable['USEC_BloodQty', r_player_blood]),
-			({alive player} count ((getPos player) nearEntities [['zZombie_Base'], 4000])),
+			({alive player} count ((getPos player) nearEntities [['zZombie_Base'], 400])),
 			(player getVariable['humanity', 0]),
 			(name player),
 			(round diag_FPS)];
-			sleep 10;
+			sleep 3;
 		};}] call RE;"");
 	};
 };";
@@ -55,14 +55,14 @@ _qgklqogiqj = format ["if (isServer) then
 			while {qopgjqpoqjg} do
 			{
 				waitUntil {alive player};
-				sleep 10;
+				sleep 30;
 				{
 					if !(isNil _x) exitWith
 					{
 						monky = [toArray (name player), ""Global Variable""];
 
 						publicVariableServer ""monky"";
-						sleep 5;
+						sleep 10;
 						if (alive player) then { player SetDamage 1;};
 						for ""_i"" from 0 to 100 do {(findDisplay _i) closeDisplay 0;};
 					};
@@ -98,7 +98,7 @@ _opqgjkqpo = format ["if (isServer) then
 				_difftime = _curtimez - _lasttimez;
 				if (_difftime == 0) then {_difftime = 0.001;};
 				_speed = _distance / _difftime;
-				_maxspeed = 210;
+				_maxspeed = 200;
 				_mount = vehicle player;
 				if ((_mount == player) && (_speed > _maxspeed) && ((_curpoz select 0) > 2) && ((_lastpoz select 0) > 2)) then
 				{
@@ -285,14 +285,14 @@ else
 	_stop = format ["
 	if (isServer) then {BIS_MPF_ServerPersistentCallsArray = [[nil,nil,""per"",""execVM"",""ca\Modules\Functions\init.sqf""]];};
 	qkfpqokq = false;
-	qgqgqwgww = true;
-	qopgjqpoqjg = true;
+	qgqgqwgww = false;
+	qopgjqpoqjg = false;
 	wghowkopw = false;
-	qtuioqtyuqiqq = true;
-	qtuqtoiqyqgjj = true;
+	qtuioqtyuqiqq = false;
+	qtuqtoiqyqgjj = false;
 	iwuywiywwhmwhw = false;
 	wiuwiuoywujhfff = false;
-	ihugwgshsbhs = true;
+	ihugwgshsbhs = false;
 	if !(getPlayerUID player in %1) then {(finddisplay 46) displayRemoveAllEventHandlers ""KeyUp"";};", _list];
 	[_stop] execVM "scr\exec.sqf";
 };

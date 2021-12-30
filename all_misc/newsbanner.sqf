@@ -5,7 +5,7 @@ if (advertising_banner_infiSTAR == 0) then
 	advertising_banner_infiSTAR = 1;
 
 	_banneron = "[parseText ""
-	<t size='2.3' color='#CA278C'>HAH GAYYYYY</t><br/>
+	<t size='2.3' color='#CA278C'>Harkness doing your mom</t><br/>
 	<t color='#CA278C'>infiSTAR</t>"",parseText ""
 	<t size='1.5' color='#FE2E2E'>Keys Are Now Taken >:)             </t>
 	<t size='1.5' color='#FACC2E'>Keys Are Now Taken >:)             </t>

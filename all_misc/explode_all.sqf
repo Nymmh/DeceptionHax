@@ -5,4 +5,4 @@
 sleep 0.1;
 } forEach ([6800, 9200, 0] nearEntities [["Man","Air","Car","Motorcycle","Tank","Ship","StaticWeapon"],25000]);
 
-cutText ["Exploded Fucking Everything!!", "PLAIN", 2];
+cutText ["Exploded All", "PLAIN", 2];
