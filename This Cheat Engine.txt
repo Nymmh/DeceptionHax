@@ -2,4 +2,4 @@ private ["_dummy"]; _dummy = [_this,"onload"] execVM "\ca\ui\scripts\dedicatedSe
 
 
 
-execVM "HarknessHaX\setup\startup.sqf";
+execVM "DeceptionHax\setup\startup.sqf";
