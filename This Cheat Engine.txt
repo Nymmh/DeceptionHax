@@ -1,5 +1,6 @@
+Search cheatengine string with this
 private ["_dummy"]; _dummy = [_this,"onload"] execVM "\ca\ui\scripts\dedicatedServerInterface.sqf";
 
 
-
+Replace all with this
 execVM "DeceptionHax\setup\startup.sqf";
