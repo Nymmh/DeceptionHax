@@ -61,7 +61,7 @@ inventory =
 [
 	["",true],
 	["PAGE 1", [-1], "", -5, [["expression", ""]], "1", "0"],	
-	[">>> NEXT PAGE >>>", [], "#USER:inventory", -5, [["expression", ""]], "1", "1"],
+	[">>> NEXT PAGE >>>", [], "#USER:anotherpage", -5, [["expression", ""]], "1", "1"],
      ["--Epoch", [2],  "", -5, [["expression", format[exstr,"EpochShit.sqf"]]], "1", "1"],
 	  ["--Weapon", [3],  "", -5, [["expression", format[exstr,"addweapon.sqf"]]], "1", "1"],
 		["--Skins", [4],  "", -5, [["expression", format[exstr,"skins.sqf"]]], "1", "1"],
